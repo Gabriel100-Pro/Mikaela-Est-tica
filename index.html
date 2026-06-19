@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mikaela Estética | Clínica de Estética</title>
+  <meta name="description" content="Mikaela Estética — Tratamentos faciais e corporais exclusivos que respeitam sua autenticidade e entregam resultados visíveis e duradouros." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== COOKIE BANNER ===== -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-content">
+      <p><strong>Aviso de Cookies!</strong><br>
+      Este site usa cookies para oferecer a melhor experiência possível. Ao continuar, você aceita o uso de cookies conforme nossa Política.</p>
+      <button class="btn-cookie" id="acceptCookies">Aceitar todos os Cookies</button>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-name">Mikaela</span>
+        <span class="logo-sub">Estética</span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#tratamentos" class="nav-link">Tratamentos</a></li>
+        <li><a href="#clinica" class="nav-link">A Clínica</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <a href="https://wa.me/5511976713113?text=Olá%2C+gostaria+de+agendar+uma+avaliação+na+Mikaela+Estética." target="_blank" class="btn btn-outline nav-cta">
+        Agendar avaliação gratuita
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <!-- Troque o src pelo caminho do seu vídeo (ex: videos/hero.mp4) -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="./assets/video-fundo-estética.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <span class="hero-tag">Clínica de Estética</span>
+      <h1 class="hero-title">Mikaela Estética<br><em>Realce sua Beleza Natural</em></h1>
+      <p class="hero-text">
+        Combinamos ciência de ponta e cuidado humanizado para revelar a sua melhor versão.
+        Tratamentos faciais e corporais exclusivos que respeitam sua autenticidade e entregam
+        resultados visíveis, sofisticados e duradouros.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5511976713113?text=Olá%2C+gostaria+de+agendar+uma+avaliação+na+Mikaela+Estética." target="_blank" class="btn btn-gold">Agendar avaliação gratuita</a>
+        <a href="#tratamentos" class="btn btn-outline-light">Ver tratamentos</a>
+      </div>
+    </div>
+    <div class="hero-scroll" id="heroScroll">
+      <span>Explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-image">
+        <div class="sobre-img-placeholder">
+          <div class="img-decor"></div>
+        </div>
+      </div>
+      <div class="sobre-text">
+        <span class="section-tag">Quem Somos</span>
+        <h2 class="section-title">Cuidados que revelam<br>o melhor de você</h2>
+        <p>
+          A <strong>Mikaela Estética</strong> nasceu com um propósito claro: oferecer tratamentos estéticos
+          que realçam a beleza autêntica de cada pessoa. Nossa clínica boutique une design clean,
+          elementos naturais e um clima acolhedor para proporcionar uma experiência completa de bem-estar.
+        </p>
+        <p>
+          Acreditamos que a beleza verdadeira é aquela que respeita a sua essência — e é isso
+          que guia cada procedimento que realizamos.
+        </p>
+        <a href="#tratamentos" class="btn btn-dark">Ver todos os procedimentos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section class="diferenciais">
+    <div class="container">
+      <div class="diferenciais-grid">
+        <div class="diferencial-item reveal">
+          <div class="diferencial-icon">✦</div>
+          <h3>Tecnologia Avançada</h3>
+          <p>Equipamentos de última geração para resultados superiores e seguros.</p>
+        </div>
+        <div class="diferencial-item reveal">
+          <div class="diferencial-icon">✦</div>
+          <h3>Cuidado Humanizado</h3>
+          <p>Atendimento personalizado focado no seu bem-estar e nos seus objetivos.</p>
+        </div>
+        <div class="diferencial-item reveal">
+          <div class="diferencial-icon">✦</div>
+          <h3>Resultados Visíveis</h3>
+          <p>Protocolos exclusivos desenvolvidos para garantir eficácia comprovada.</p>
+        </div>
+        <div class="diferencial-item reveal">
+          <div class="diferencial-icon">✦</div>
+          <h3>Ambiente Premium</h3>
+          <p>Espaço sofisticado e acolhedor para a sua total relaxação e conforto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRATAMENTOS ===== -->
+  <section class="tratamentos" id="tratamentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nossos Serviços</span>
+        <h2 class="section-title">Confira nossos tratamentos<br>para realçar sua beleza natural</h2>
+      </div>
+
+      <div class="tratamentos-tabs">
+        <button class="tab-btn active" data-tab="facial">Procedimentos Faciais</button>
+        <button class="tab-btn" data-tab="corporal">Procedimentos Corporais</button>
+      </div>
+
+      <div class="tratamentos-grid" id="tabFacial">
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-1"></div>
+          <div class="card-body">
+            <h3>Limpeza de Pele</h3>
+            <p>Tratamento profundo que remove impurezas, desobstrui os poros e revitaliza a pele com brilho e luminosidade.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-2"></div>
+          <div class="card-body">
+            <h3>Peeling Facial</h3>
+            <p>Renovação celular que trata manchas, marcas de acne e textura irregular, devolvendo jovialidade à pele.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-3"></div>
+          <div class="card-body">
+            <h3>Botox & Preenchimento</h3>
+            <p>Harmonização facial com resultados naturais, suavizando linhas de expressão e restaurando volume.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-4"></div>
+          <div class="card-body">
+            <h3>Dermaplaning</h3>
+            <p>Esfoliação mecânica que remove células mortas e pelos finos, deixando a pele aveludada e radiante.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-5"></div>
+          <div class="card-body">
+            <h3>Rejuvenescimento Facial</h3>
+            <p>Protocolo completo que combina técnicas avançadas para uma pele mais jovem, firme e luminosa.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-6"></div>
+          <div class="card-body">
+            <h3>Harmonização Facial</h3>
+            <p>Conjunto de procedimentos que equilibra proporções e realça os traços naturais do rosto.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tratamentos-grid hidden" id="tabCorporal">
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c1"></div>
+          <div class="card-body">
+            <h3>Depilação a Laser</h3>
+            <p>Remoção definitiva dos pelos com tecnologia de ponta, segura para todos os tipos de pele.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c2"></div>
+          <div class="card-body">
+            <h3>Modelagem Corporal</h3>
+            <p>Tratamentos que definem contornos, reduzem medidas e firmam a pele com eficácia comprovada.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c3"></div>
+          <div class="card-body">
+            <h3>Drenagem Linfática</h3>
+            <p>Massagem especializada que elimina toxinas, reduz inchaço e melhora a circulação.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c4"></div>
+          <div class="card-body">
+            <h3>Tratamento para Celulite</h3>
+            <p>Protocolos exclusivos que combatem a celulite e melhoram a textura da pele de forma eficaz.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c5"></div>
+          <div class="card-body">
+            <h3>Radiofrequência</h3>
+            <p>Tecnologia que estimula o colágeno, firmando a pele e reduzindo a flacidez corporal.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+        <div class="tratamento-card reveal">
+          <div class="card-img card-img-c6"></div>
+          <div class="card-body">
+            <h3>Criolipólise</h3>
+            <p>Eliminação localizada de gordura com frio controlado, sem cirurgia e sem dor.</p>
+            <a href="https://wa.me/5511976713113" target="_blank" class="card-link">Saiba mais →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== A CLÍNICA ===== -->
+  <section class="clinica" id="clinica">
+    <div class="container clinica-grid">
+      <div class="clinica-text reveal">
+        <span class="section-tag light">Nossa Clínica</span>
+        <h2 class="section-title light">Mais do que Tratamentos:<br>Uma Experiência</h2>
+        <p>
+          A Mikaela Estética foi criada para ser um refúgio estético. Nossa clínica boutique
+          combina design clean, elementos naturais e um clima acolhedor para oferecer uma
+          experiência completa de beleza e bem-estar.
+        </p>
+        <p>
+          Sua jornada para realçar a beleza natural começa aqui.
+        </p>
+        <a href="#contato" class="btn btn-gold">Visite nossa clínica</a>
+      </div>
+      <div class="clinica-images reveal">
+        <div class="clinica-img clinica-img-main"></div>
+        <div class="clinica-img clinica-img-sec"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROFISSIONAL ===== -->
+  <section class="profissional" id="profissional">
+    <div class="container profissional-grid">
+      <div class="prof-image reveal">
+        <div class="prof-img-wrap"></div>
+        <div class="prof-badge">
+          <span>✦</span>
+          <p>Especialista em<br>Estética Avançada</p>
+        </div>
+      </div>
+      <div class="prof-text reveal">
+        <span class="section-tag">Nossa Especialista</span>
+        <h2 class="section-title">Expertise e Confiança<br>em Estética Natural</h2>
+        <p>
+          À frente da Mikaela Estética, <strong>Mikaela</strong> (Esteticista Especialista | Pós-graduada em
+          Estética Avançada) é a força motriz por trás de nossa abordagem. Com vasta experiência
+          e um compromisso inabalável com a estética natural e ética, ela guia cada tratamento
+          com precisão, cuidado e uma visão holística.
+        </p>
+        <p>
+          Sua paixão pela saúde da pele e sua busca incessante por inovações seguras garantem
+          que você receba o que há de melhor e mais atual na estética.
+        </p>
+        <div class="prof-badges">
+          <span class="badge">Estética Avançada</span>
+          <span class="badge">Harmonização Facial</span>
+          <span class="badge">Tecnologia Capilar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container cta-content">
+      <h2>Pronta para a sua transformação?</h2>
+      <p>Agende agora sua avaliação gratuita e descubra o tratamento ideal para você.</p>
+      <a href="https://wa.me/5511976713113?text=Olá%2C+gostaria+de+agendar+uma+avaliação+na+Mikaela+Estética." target="_blank" class="btn btn-gold">Agendar avaliação gratuita</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO / FOOTER ===== -->
+  <footer class="footer" id="contato">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="nav-logo footer-logo">
+          <span class="logo-name">Mikaela</span>
+          <span class="logo-sub">Estética</span>
+        </a>
+        <p>Sua jornada para realçar a beleza natural começa aqui.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://wa.me/5511976713113" target="_blank" aria-label="WhatsApp" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#clinica">A Clínica</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Tratamentos</h4>
+        <ul>
+          <li><a href="#tratamentos">Limpeza de Pele</a></li>
+          <li><a href="#tratamentos">Peeling Facial</a></li>
+          <li><a href="#tratamentos">Depilação a Laser</a></li>
+          <li><a href="#tratamentos">Harmonização Facial</a></li>
+          <li><a href="#tratamentos">Modelagem Corporal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contato">
+        <h4>Endereço</h4>
+        <p>R. Exemplo, nº 100 — Bairro<br>Cidade — SP</p>
+        <h4>Contato</h4>
+        <a href="https://wa.me/5511976713113" target="_blank">(11) 97671-3113</a>
+        <br>
+        <a href="mailto:contato@mikaelastetica.com.br">contato@mikaelastetica.com.br</a>
+        <h4>Horário</h4>
+        <p>Seg — Sex: 09h às 18h<br>Sáb: 09h às 14h</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Mikaela Estética. Todos os direitos reservados.</p>
+        <a href="#inicio" class="back-to-top" id="backToTop">Voltar ao topo ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOAT ===== -->
+  <a href="https://wa.me/5511976713113?text=Olá%2C+gostaria+de+agendar+uma+avaliação+na+Mikaela+Estética." target="_blank" class="whatsapp-float" aria-label="Fale pelo WhatsApp">
+    <span class="whatsapp-icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </span>
+    <span class="whatsapp-copy">
+      <span class="whatsapp-kicker">Fale conosco!</span>
+      <span class="whatsapp-title">Agende sua avaliação</span>
+    </span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
