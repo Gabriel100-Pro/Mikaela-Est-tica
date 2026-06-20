@@ -645,17 +645,25 @@ img { display: block; max-width: 100%; }
   background-position: center;
   transition: transform .5s ease;
   overflow: hidden;
+ 
+}
+
+.card-img video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .tratamento-card:hover .card-img { transform: scale(1.04); }
 
 /* Placeholder gradients for card images */
-.card-img-1 { background: linear-gradient(135deg, #e8d5c4 0%, #c9a990 100%); }
+.card-img-1 { background: url(./Procedimentos\ faciais/); }
 .card-img-2 { background: linear-gradient(135deg, #d4c5b5 0%, #b89a80 100%); }
 .card-img-3 { background: linear-gradient(135deg, #e0cfc2 0%, #c4a48a 100%); }
 .card-img-4 { background: linear-gradient(135deg, #ddd0c3 0%, #bfa08a 100%); }
 .card-img-5 { background: linear-gradient(135deg, #e5d8cc 0%, #c9a98e 100%); }
 .card-img-6 { background: linear-gradient(135deg, #d8cab8 0%, #ba9578 100%); }
-.card-img-c1 { background: linear-gradient(135deg, #c8d8e8 0%, #8aaccb 100%); }
+
 .card-img-c2 { background: linear-gradient(135deg, #d8e8d8 0%, #8ac88a 100%); }
 .card-img-c3 { background: linear-gradient(135deg, #e8d8e8 0%, #c88ac8 100%); }
 .card-img-c4 { background: linear-gradient(135deg, #e8e8c8 0%, #c8c88a 100%); }
